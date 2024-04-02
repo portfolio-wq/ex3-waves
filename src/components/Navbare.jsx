@@ -18,7 +18,7 @@ function Navbar() {
   return (
     <div className="bg-[#3c31dd] flex p-10 md:justify-between items-center flex-wrap justify-center gap-5 ">
       <div className="font-bold tracking-[5px] text-xl">Logo</div>
-      <ul className="flex gap-5">
+      <ul className="flex md:gap-5 gap-2">
         {links.map((link) => (
           <li
             key={link.id}
