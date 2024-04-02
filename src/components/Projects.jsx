@@ -20,15 +20,17 @@ function Projects() {
       images: [proje2, proje2],
       descr:
         "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia consequatur reiciendis eum laborum asperiores rerum quae ad rem exercitationem, eveniet tenetur enim quam mollitia officiis inventore quis? Iusto, accusamus quos? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos delectus nam consequuntur.",
+      list: ["list1", "list2", "list3"],
       tools: ["Nextjs", "Django"],
     },
     {
       id: 1,
-      name: "secend project",
+      name: "second project",
       place: "Rabat, N 02 Street Sidi Kecem",
       images: [proje7, proje7],
       descr:
         "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia consequatur reiciendis eum laborum asperiores rerum quae ad rem exercitationem, eveniet tenetur enim quam mollitia officiis inventore quis? Iusto, accusamus quos? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos delectus nam consequuntur.",
+      list: ["list1", "list2", "list3"],
       tools: ["javascript", "mongo DB", "Reactjs"],
     },
     {
@@ -38,6 +40,7 @@ function Projects() {
       images: [proje2, proje2],
       descr:
         "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia consequatur reiciendis eum laborum asperiores rerum quae ad rem exercitationem, eveniet tenetur enim quam mollitia officiis inventore quis? Iusto, accusamus quos? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos delectus nam consequuntur.",
+      list: ["list1", "list2", "list3"],
       tools: ["HTML", "CSS"],
     },
   ];
@@ -65,9 +68,8 @@ function Projects() {
             {projects.map((project, i) => (
               <div
                 key={i}
-                className="experience w-fit bg-gray-700 p-7 rounded-md flex flex-col gap-4"
+                className="experience w-fit bg-gray-700 p-7 rounded-md flex flex-col "
               >
-                <h2 className="mb-6 lg:text-xl">{project.name}</h2>
                 <div className=" rounded-md overflow-hidden">
                   <Carousel>
                     {project.images.map((img, i) => (
@@ -76,17 +78,28 @@ function Projects() {
                       </div>
                     ))}
                   </Carousel>
+                  <p className="md:mb-6 text-xl ">{project.name}</p>
                 </div>
-                <div className="text-sm">{project.place}</div>
+
                 <br />
                 <div className="bg-gray-600 p-2 rounded-md">
                   <div>
                     <p className=" font-medium ">Description:</p>
                     <br />
-                    {project.descr}
+                    <p>{project.descr}</p>
+                    <br />
+                    <p className="font-medium">Steps:</p>
+                    <br />
+                    <ul className="pl-5">
+                      {project.list.map((list, i) => (
+                        <li key={i} className=" list-disc">
+                          {list}
+                        </li>
+                      ))}
+                    </ul>
                   </div>
                 </div>
-                <div className="h-[3px] w-[50%]  bg-gradient-to-r from-fuchsia-600 to-purple-600 self-center mt-3"></div>
+                <div className="h-[3px] w-[50%]  bg-gradient-to-r from-fuchsia-600 to-purple-600 self-center mt-5"></div>
                 <div className="flex w-full justify-between flex-col pt-5 items-center">
                   <div className="font-medium mb-5 text-lg">Tools</div>
                   <div className="flex justify-center gap-2">

@@ -9,8 +9,8 @@ import { ReactTyped } from "react-typed";
 
 function Header() {
   return (
-    <div id="#hero">
-      <section className="blue md:pt-[100px]">
+    <div id="hero">
+      <section className="blue md:pt-[100px] ">
         <div className="center flex md:justify-around flex-wrap justify-center items-center  w-full">
           <div className="">
             <h1 className="text-4xl font">
