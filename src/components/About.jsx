@@ -21,13 +21,13 @@ function About() {
               continuous learning. Excited about leveraging technology to make a
               positive impact and solve complex challenges.
             </p>
-            <button className="bg-red-400 py-2 px-4 rounded-md font-medium mb-5">
+            <button className="bg-gradient-to-r from-rose-500 to-red-400  py-2 px-4 rounded-md font-medium mb-5">
               My cv
             </button>
           </div>
 
           {/* main */}
-          <div className="grid gap-4 items-center relative   grid-cols-2  w-[100%] ">
+          <div className="grid gap-4 items-center relative   md:grid-cols-2 grid-cols-1 w-[100%] ">
             {/* left */}
             <div className="info-row bg-slate-700 p-2  rounded-md shadow-md h-full">
               <div className="h-full ">

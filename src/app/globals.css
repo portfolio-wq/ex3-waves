@@ -148,3 +148,6 @@ html {
 .transition-bg-color {
   transition: background-color 0.3s ease;
 }
+.carousel .control-dots .dot {
+  display: none !important;
+}

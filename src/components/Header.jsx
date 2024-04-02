@@ -35,7 +35,7 @@ function Header() {
               <FaGithub />
               <FaFacebookSquare />
             </div>
-            <button className="mt-5 p-3 bg-red-400 rounded-md font-medium">
+            <button className="mt-5 p-3 bg-gradient-to-r from-rose-500 to-red-400  rounded-md font-medium">
               Contact Me
             </button>
           </div>

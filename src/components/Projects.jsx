@@ -91,7 +91,7 @@ function Projects() {
                   <div className="font-medium mb-5 text-lg">Tools</div>
                   <div className="flex justify-center gap-2">
                     {project.tools.map((tool, i) => (
-                      <div key={i} className="  bg-black p-2 rounded-md">
+                      <div key={i} className="  bg-gray-800 p-2 rounded-md">
                         {tool}
                       </div>
                     ))}

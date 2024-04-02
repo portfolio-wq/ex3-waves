@@ -24,7 +24,7 @@ function Experience() {
           <div className="edu-exp padd-15 flex gap-4 flex-wrap md:flex-nowrap">
             {/*  */}
             <div className="experience w-fit bg-gray-700 p-7 rounded-md">
-              <h2 className="mb-6 lg:text-xl">Experience</h2>
+              <h2 className="mb-6 text-xl">Experience</h2>
               <div className="box relative  rounded-7 ">
                 <div className="boxs flex items-start mb-6">
                   <div className="icon relative">
@@ -56,7 +56,7 @@ function Experience() {
                     <span className="text-xs md:text-sm">
                       Nov 2022 - Feb 2023
                     </span>
-                    <h3 className="text-sm lg:text-lg">
+                    <h3 className="text-medium font-bold lg:text-lg">
                       Web Development Intern at RadicalX
                     </h3>
                     <p className="text-xs md:text-sm">
@@ -77,7 +77,9 @@ function Experience() {
                     <span className="text-xs md:text-sm">
                       Mar 2021 - Aug 2021
                     </span>
-                    <h3 className="text-sm lg:text-lg">IOTECH · Internship</h3>
+                    <h3 className="text-medium font-bold lg:text-lg">
+                      IOTECH · Internship
+                    </h3>
                     <p className="text-xs md:text-sm">
                       Lorem ipsum dolor sit amet consectetur adipisicing elit.
                       Dicta quia nihil reprehenderit exercitationem sint.
@@ -89,7 +91,7 @@ function Experience() {
               </div>
             </div>
             <div className="education w-fit bg-gray-700 p-7 rounded-md ">
-              <h2 className="mb-6 lg:text-xl">Education</h2>
+              <h2 className="mb-6 text-xl">Education</h2>
               <div className="box relative  rounded-7">
                 <div className="boxs flex items-start mb-6">
                   <div className="icon relative">
@@ -97,7 +99,7 @@ function Experience() {
                   </div>
                   <div>
                     <span className="text-xs">2021 - 2022</span>
-                    <h3 className="text-sm lg:text-lg ">
+                    <h3 className="text-medium font-bold lg:text-lg ">
                       Application Design And Development Engineering
                     </h3>
                     <p className="text-xs md:text-sm">
@@ -116,7 +118,7 @@ function Experience() {
                   </div>
                   <div>
                     <span className="text-xs md:text-sm">2017 - 2020</span>
-                    <h3 className="text-sm lg:text-lg">
+                    <h3 className="text-medium font-bold lg:text-lg">
                       Diplome In Networking
                     </h3>
                     <p className="text-xs md:text-sm">
@@ -135,7 +137,7 @@ function Experience() {
                   </div>
                   <div>
                     <span className="text-xs md:text-sm">2016 - 2017</span>
-                    <h3 className="text-sm lg:text-lg">
+                    <h3 className="text-medium font-bold lg:text-lg">
                       Baccalaureat in experimental science
                     </h3>
                     <p className="text-xs md:text-sm">
