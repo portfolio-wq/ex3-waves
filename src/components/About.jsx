@@ -44,7 +44,7 @@ function About() {
                     Github :
                     <span className="text-gray-400">
                       <button>
-                        <a href="https://github.com/khalid-wq" target="_blank">
+                        <a href="https://github.com/" target="_blank">
                           My Github
                         </a>
                       </button>
