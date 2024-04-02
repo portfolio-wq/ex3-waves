@@ -32,7 +32,7 @@ function About() {
             <div className="info-row bg-slate-700 p-2  rounded-md shadow-md h-full">
               <div className="h-full ">
                 <h3 className="text-xl bg-gradient-to-r from-red-500 to-orange-500 bg-clip-text text-transparent">
-                  soft skills
+                  About Details
                 </h3>
 
                 <ul className="pt-3">
@@ -69,7 +69,7 @@ function About() {
               </div>
             </div>
             {/* right */}
-            <div className="info-row bg-slate-700 p-2  rounded-md shadow-md h-full ">
+            <div className="info-row bg-slate-700 p-3  rounded-md shadow-md h-full ">
               <h3 className="text-xl bg-gradient-to-r from-red-500 to-orange-500 bg-clip-text text-transparent">
                 soft skills
               </h3>
